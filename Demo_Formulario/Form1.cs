@@ -29,7 +29,25 @@ namespace Demo_Formulario
 
         private void BtnSaludar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bienvenido SAPO PERRO");
+            MessageBox.Show("Bienvenido CRACK");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnUsuario_Click(object sender, EventArgs e)
+        {
+            FrmUsuario frm1 = new FrmUsuario();
+            frm1.ShowDialog();
+        }
+
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+            FrmLogin frml1 = new FrmLogin();
+            frml1.ShowDialog();
+
         }
     }
 }

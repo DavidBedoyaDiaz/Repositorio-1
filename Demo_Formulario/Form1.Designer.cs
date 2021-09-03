@@ -33,6 +33,8 @@ namespace Demo_Formulario
             this.BtnSaludar = new System.Windows.Forms.Button();
             this.LblBienvenido = new System.Windows.Forms.Label();
             this.BtnRojo = new System.Windows.Forms.Button();
+            this.BtnUsuario = new System.Windows.Forms.Button();
+            this.BtnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btncolor
@@ -43,6 +45,7 @@ namespace Demo_Formulario
             this.Btncolor.TabIndex = 0;
             this.Btncolor.Text = "Azul";
             this.Btncolor.UseVisualStyleBackColor = true;
+            this.Btncolor.Visible = false;
             this.Btncolor.Click += new System.EventHandler(this.button1_Click);
             // 
             // BtnSaludar
@@ -53,6 +56,7 @@ namespace Demo_Formulario
             this.BtnSaludar.TabIndex = 1;
             this.BtnSaludar.Text = "Saludar";
             this.BtnSaludar.UseVisualStyleBackColor = true;
+            this.BtnSaludar.Visible = false;
             this.BtnSaludar.Click += new System.EventHandler(this.BtnSaludar_Click);
             // 
             // LblBienvenido
@@ -73,19 +77,43 @@ namespace Demo_Formulario
             this.BtnRojo.TabIndex = 3;
             this.BtnRojo.Text = "Rojo";
             this.BtnRojo.UseVisualStyleBackColor = true;
+            this.BtnRojo.Visible = false;
             this.BtnRojo.Click += new System.EventHandler(this.BtnRojo_Click);
+            // 
+            // BtnUsuario
+            // 
+            this.BtnUsuario.Location = new System.Drawing.Point(470, 306);
+            this.BtnUsuario.Name = "BtnUsuario";
+            this.BtnUsuario.Size = new System.Drawing.Size(75, 32);
+            this.BtnUsuario.TabIndex = 4;
+            this.BtnUsuario.Text = "Usuario";
+            this.BtnUsuario.UseVisualStyleBackColor = true;
+            this.BtnUsuario.Click += new System.EventHandler(this.BtnUsuario_Click);
+            // 
+            // BtnLogin
+            // 
+            this.BtnLogin.Location = new System.Drawing.Point(342, 374);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(75, 23);
+            this.BtnLogin.TabIndex = 5;
+            this.BtnLogin.Text = "Login";
+            this.BtnLogin.UseVisualStyleBackColor = true;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnLogin);
+            this.Controls.Add(this.BtnUsuario);
             this.Controls.Add(this.BtnRojo);
             this.Controls.Add(this.LblBienvenido);
             this.Controls.Add(this.BtnSaludar);
             this.Controls.Add(this.Btncolor);
             this.Name = "Form1";
             this.Text = "Primera aplicación";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,6 +125,8 @@ namespace Demo_Formulario
         private System.Windows.Forms.Button BtnSaludar;
         private System.Windows.Forms.Label LblBienvenido;
         private System.Windows.Forms.Button BtnRojo;
+        private System.Windows.Forms.Button BtnUsuario;
+        private System.Windows.Forms.Button BtnLogin;
     }
 }
 

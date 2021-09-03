@@ -8,3 +8,5 @@ C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.csproj.Gen
 C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.csproj.CoreCompileInputs.cache
 C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.exe
 C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.pdb
+C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.FrmUsuario.resources
+C:\Users\salas\source\repos\Demo_Formulario\obj\Debug\Demo_Formulario.FrmLogin.resources
